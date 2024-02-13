@@ -43,7 +43,7 @@ public class Game{
         else{
           System.out.print("  ");
         }
-        System.out.print();
+        System.out.println();
       }
     }
   }
