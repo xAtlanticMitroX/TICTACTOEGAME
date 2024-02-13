@@ -1,3 +1,8 @@
+// Amrit Gill
+// February 12, 2024
+// Period 5
+// TTT with 2D arrays
+
 /*
 This project must play Tic-Tac-Toe.
 
@@ -27,10 +32,16 @@ For more in the future and more awesomer...
 5) You can make a new class for a turn, or a piece, or a screen painter
 */
 
+// Amrit Gill
 
 public class Main {
   public static void main(String[] args) {
-    new Player();
-    System.out.println("TTT - RAN WITHOUT ERRORS");
+    Player p1 = new Player("p1");
+    System.out.println();
+    Player p2 = new Player("p2");
+    
+    Game game = new Game();
+    game.printBoard();
+    
   }
 }
