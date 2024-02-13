@@ -37,7 +37,7 @@ public class Main {
     Player p1 = new Player("p1");
     System.out.println();
     Player p2 = new Player("p2");
-    
+
     Game game = new Game();
     game.printBoard();
     
